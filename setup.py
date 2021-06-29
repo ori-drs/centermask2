@@ -22,7 +22,7 @@ setup(
     author='Mark Finean',
     author_email='shudson@anl.gov',
     license='BSD 2-clause',
-    packages=['pyexample'],
+    packages=['centermask'],
     install_requires=['torch',
                       'detectron2',
                       'fvcore'                     
