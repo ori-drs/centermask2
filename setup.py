@@ -12,7 +12,7 @@
 # setup(**setup_args)
 
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='centermask',
@@ -22,7 +22,7 @@ setup(
     author='Mark Finean',
     author_email='shudson@anl.gov',
     license='BSD 2-clause',
-    packages=['centermask'],
+    packages=find_packages(),
     install_requires=['torch',
                       'detectron2',
                       'fvcore'                     
